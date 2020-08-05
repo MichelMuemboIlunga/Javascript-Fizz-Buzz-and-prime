@@ -1,3 +1,4 @@
+
 for (var n = 1; n < 101; n++) {
   if (n % 3 === 0 && n % 5 === 0) {
     console.log(n + " FizzBuzz");
@@ -11,6 +12,7 @@ for (var n = 1; n < 101; n++) {
     console.log(n);
   }
 }
+// prime numbers function
 function isPrime(n) {
   if (n < 2) {
     return false;
